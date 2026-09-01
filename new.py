@@ -9,5 +9,5 @@ test_path="data/test"
 
 
 train_data=imageDataGenerator(rescale=1./255,rotation_range=30,zoom_range=0.2,horizontal_flip=True)
-test_data=imageDataGenerator(rescale=1./255)
+test_data=imageDataGenerator(rescale=1./255),
 
